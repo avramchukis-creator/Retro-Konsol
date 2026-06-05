@@ -42,8 +42,8 @@ void sendState(int js1X, int js1Y, int js1SW, int js2X, int js2Y, int js2SW, int
   Serial1.print(" JS1Y="); Serial1.print(js1Y);
   Serial1.print(" JS1SW="); Serial1.print(js1SW);
 
-  Serial1.print(" JS2X="); Serial1.print(js2X);
-  Serial1.print(" JS2Y="); Serial1.print(js2Y);
+  Serial1.print(" JS2X="); Serial1.print(-js2X);
+  Serial1.print(" JS2Y="); Serial1.print(-js2Y);
   Serial1.print(" JS2SW="); Serial1.print(js2SW);
 
   for (int i = 0; i < 12; i++) {
