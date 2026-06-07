@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Controller + EmulationStation
+Comment=Start controller and then EmulationStation
+Exec=/home/igor/start_controller_es.sh
+Terminal=true
+Icon=utilities-terminal
+Categories=Game;
